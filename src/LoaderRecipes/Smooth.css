@@ -1,0 +1,29 @@
+@keyframes spin{
+    to{ transform: rotate(360deg);}
+}
+
+.loading{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 180px;
+    margin-right: 100px;
+    border-radius: 50%;
+    border-top:
+        8px solid rgba(255, 255, 255, 1);
+    border-left:
+        8px solid rgba(255, 255, 255, 1);
+    border-right:
+        8px solid rgba(255, 255, 255, 0);
+
+    animation: spin 0.575s infinite linear;
+}
+
+.loading span{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: auto;
+}
