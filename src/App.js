@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import BouncyLoad from './BouncyLoad';
+import BouncyLoad from './BouncyLoader/BouncyLoad';
 
 function App() {
   return (
